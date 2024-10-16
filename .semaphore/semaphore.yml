@@ -11,6 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
+            - 
   - name: Tests
     task:
       prologue:
