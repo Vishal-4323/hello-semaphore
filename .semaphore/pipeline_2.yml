@@ -10,6 +10,7 @@ blocks:
       jobs:
         - name: Deploy to Production
           commands:
+            - python3 hello.py
             - echo "Deploying using key $API_KEY"
       env_vars:
         - name: API_KEY
