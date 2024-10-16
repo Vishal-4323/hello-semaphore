@@ -20,6 +20,7 @@ blocks:
       jobs:
         - name: Unit Tests
           commands:
+            - python3 hello.py
             - echo "running unit tests"
         - name: Integration Tests
           commands:
